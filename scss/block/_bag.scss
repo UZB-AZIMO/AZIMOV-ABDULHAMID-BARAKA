@@ -1,0 +1,47 @@
+.bag{
+    
+    width: 100%;
+    height: 500px;
+    background-color:white;
+    margin-top: -12px;
+    &__wrapper{
+        gap: 40px;
+        display: flex;
+        padding: 50px 0;
+    }
+    &__card{
+        padding: 20px;
+        width: calc(32.3% - 26px);
+        height: 300px;
+        color:black;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        transition: .5s;
+        
+        &:hover{
+            border: 5px solid blue;
+            border-radius: 20px;
+            transform: scale(1.1);
+        }
+        
+    }
+    &__img{
+        margin-bottom: 50px;
+        width: 60px;
+        
+    }
+}
+
+
+
+
+
+
+@media ( max-width:600px){
+    .bag{
+&__wrapper{
+    gap: 20px;
+}
+    }
+}
