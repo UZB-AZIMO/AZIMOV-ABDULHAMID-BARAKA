@@ -7,6 +7,12 @@
         display: flex;
         padding: 50px 0;
     }
+    &__title{
+        font-size: 50px;
+        color: rgb(0, 178, 178);
+        padding: 10px 0;
+        text-align: center;
+    }
     &__card{
         padding: 20px;
         width: calc(32.3% - 26px);
