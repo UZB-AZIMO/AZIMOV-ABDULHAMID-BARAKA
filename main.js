@@ -1,6 +1,5 @@
 alert ( "• ASSALOMU ALEKUM SAYTIMIZGA XUSH KELIBSIZ •")
 const title = document.querySelector(".title")
-
 function clock(){ 
     let date = new Date()
     let month = date.getMonth()
@@ -15,3 +14,4 @@ clock()
 setInterval(()=>{
     clock()
 },1000)
+
